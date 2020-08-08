@@ -1,0 +1,18 @@
+#page-success {
+    background: var(--color-primary);
+}
+
+#page-success #container {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+@media (max-width: 699px) {
+    :root {
+        font-size: 40%; /*modificar as medidas rem */
+    }
+}
